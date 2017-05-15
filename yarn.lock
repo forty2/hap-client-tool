@@ -700,6 +700,18 @@ graceful-fs@^4.1.2:
   version "4.1.11"
   resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-4.1.11.tgz#0e8bdfe4d1ddb8854d64e04ea7c00e2a026e5658"
 
+hap-client-tool@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/hap-client-tool/-/hap-client-tool-1.0.0.tgz#b420481ed466ab3194a90e29d8bb9b08e0408043"
+  dependencies:
+    dbus "^1.0.0"
+    glob "^7.1.1"
+    lodash.merge "^4.6.0"
+    nan "^2.6.2"
+    prompt "^1.0.0"
+    rxjs "^5.4.0"
+    yargs "^8.0.1"
+
 has-ansi@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/has-ansi/-/has-ansi-2.0.0.tgz#34f5049ce1ecdf2b0649af3ef24e45ed35416d91"

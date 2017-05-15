@@ -29,8 +29,7 @@
     "babel-plugin-syntax-function-bind": "^6.13.0",
     "babel-plugin-transform-function-bind": "^6.8.0",
     "babel-plugin-transform-object-rest-spread": "^6.8.0",
-    "babel-preset-env": "^1.4.0",
-    "simple-plist": "^0.2.1"
+    "babel-preset-env": "^1.4.0"
   },
   "babel": {
     "sourceMaps": "inline",
@@ -58,7 +57,6 @@
   },
   "homepage": "https://github.com/forty2/hap-client-tool#readme",
   "dependencies": {
-    "dbus": "^1.0.0",
     "glob": "^7.1.1",
     "lodash.merge": "^4.6.0",
     "nan": "^2.6.2",
