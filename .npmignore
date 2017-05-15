@@ -1,0 +1,7 @@
+src/
+dist/hap-client-tools-unlock.js
+node_modules/
+binding.gyp
+build/
+native/
+

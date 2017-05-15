@@ -1,0 +1,69 @@
+{
+  "name": "hap-client-tool",
+  "version": "1.0.0",
+  "description": "CLI tool for controlling HomeKit devices",
+  "bin": {
+    "hap-client-tool": "dist/cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/forty2/hap-client-tool.git"
+  },
+  "keywords": [
+    "homekit",
+    "hap",
+    "client",
+    "control",
+    "home",
+    "automation"
+  ],
+  "scripts": {
+    "build": "babel src -d dist -D",
+    "clean": "rm -rf dist/",
+    "prepublish": "npm run build"
+  },
+  "author": "Zach Bean <zb@forty2.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.14.0",
+    "babel-plugin-syntax-function-bind": "^6.13.0",
+    "babel-plugin-transform-function-bind": "^6.8.0",
+    "babel-plugin-transform-object-rest-spread": "^6.8.0",
+    "babel-preset-env": "^1.4.0",
+    "simple-plist": "^0.2.1"
+  },
+  "babel": {
+    "sourceMaps": "inline",
+    "presets": [
+      [
+        "env",
+        {
+          "targets": {
+            "node": 6
+          }
+        }
+      ]
+    ],
+    "plugins": [
+      "syntax-function-bind",
+      "transform-function-bind",
+      "transform-object-rest-spread"
+    ]
+  },
+  "engines": {
+    "node": ">=6.0"
+  },
+  "bugs": {
+    "url": "https://github.com/forty2/hap-client-tool/issues"
+  },
+  "homepage": "https://github.com/forty2/hap-client-tool#readme",
+  "dependencies": {
+    "dbus": "^1.0.0",
+    "glob": "^7.1.1",
+    "lodash.merge": "^4.6.0",
+    "nan": "^2.6.2",
+    "prompt": "^1.0.0",
+    "rxjs": "^5.4.0",
+    "yargs": "^8.0.1"
+  }
+}
