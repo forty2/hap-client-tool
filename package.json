@@ -23,6 +23,9 @@
     "prepublish": "npm run build"
   },
   "author": "Zach Bean <zb@forty2.com>",
+  "contributors": [
+      "Sebastian Raff (https://github.com/hobbyquaker)"
+  ],
   "license": "MIT",
   "devDependencies": {
     "babel-cli": "^6.24.1",
